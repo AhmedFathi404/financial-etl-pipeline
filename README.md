@@ -29,8 +29,9 @@ This project builds a complete **ETL pipeline** to process \~4.5M financial tran
 
 ## 🏗️ Architecture
 
-![Architecture Diagram](images/Diagram.png)
-**Flow:**
+<img src="images/Diagram.png" width="800" alt="Architecture Diagram">
+
+*Figure : System architecture showing data flow from CSV files through Airflow ETL to PostgreSQL data warehouse and finally to Power BI dashboard***Flow:**
 
 1. Load raw CSV data
 2. Run daily ETL pipeline
